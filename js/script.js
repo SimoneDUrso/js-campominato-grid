@@ -21,5 +21,10 @@ const grid = document.getElementById("grid")
 // Diamo l'evento click al pulsante
 btn.addEventListener("click", function () {
 
+    // Ciclo FOR per creare una griglia 10x10
+    for (i = 0; i < 100; i++) {
 
+
+
+    }
 })
