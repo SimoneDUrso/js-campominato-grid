@@ -23,8 +23,9 @@ main {
 }
 
 #start {
-    padding: 10px 40px;
+    padding: 10px 80px;
     font-size: 30px;
+    cursor: pointer;
 }
 
 .square {
@@ -47,12 +48,21 @@ main {
 
 .col-50 {
     width: 50%;
+    display: flex;
+    align-items: center;
 }
 
 .col-50 img {
     width: 10%;
 }
 
-.ta-right {
-    text-align: right;
+.jc-right {
+    display: flex;
+    justify-content: end;
+}
+
+.color-orange {
+    font-size: 30px;
+    color: rgb(255, 115, 0);
+    margin-left: 10px;
 }
