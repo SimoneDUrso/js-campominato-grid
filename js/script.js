@@ -35,7 +35,7 @@ btn.addEventListener("click", function () {
 
         // Inseriamo un numero progressivo
         currentSquare.innerText = i + 1;
-
+        grid.append(currentSquare);
 
     }
 })
