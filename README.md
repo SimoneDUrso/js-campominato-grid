@@ -36,3 +36,5 @@ Le validazioni e i controlli possiamo farli anche in un secondo momento.
 6 - Creiamo il singolo quadrato richiamando la funzione iniziale;
 7 - Aggiungiamo EventListener al quadrato appena creato;
 8 - Aggiungiamo una classe per colorare il singolo quadrato al click;
+9 - Iniettiamo all'interno dei quadrati il numero progressivo;
+10 - Appendiamo i nosti quadrati alla griglia.
