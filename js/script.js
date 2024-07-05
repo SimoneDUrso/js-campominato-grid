@@ -11,3 +11,6 @@ function createSquare() {
 
 }
 
+// Recupero il pulsante presente nell'header
+const btn = document.getElementById("start");
+
