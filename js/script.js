@@ -32,5 +32,10 @@ btn.addEventListener("click", function () {
             this.classList.add("clicked-azure")
         });
 
+
+        // Inseriamo un numero progressivo
+        currentSquare.innerText = i + 1;
+
+
     }
 })
