@@ -27,7 +27,10 @@ btn.addEventListener("click", function () {
         // richiamo la funzione per la creazione del quadrato
         let currentSquare = createSquare();
 
-
+        // Evento click sul singolo quadrato
+        currentSquare.addEventListener("click", function () {
+            this.classList.add("clicked-azure")
+        });
 
     }
 })
