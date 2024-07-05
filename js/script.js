@@ -30,6 +30,7 @@ btn.addEventListener("click", function () {
         // Evento click sul singolo quadrato
         currentSquare.addEventListener("click", function () {
             this.classList.add("clicked-azure")
+            console.log(currentSquare.innerText);
         });
 
 
