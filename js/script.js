@@ -6,4 +6,8 @@ function createSquare() {
     // Assegnazione della classe square all'elemento creato
     currentElement.classList.add('square');
 
+    // Restituisco il quadrato contenuto nella variabile sopra
+    return currentElement;
+
 }
+
