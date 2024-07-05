@@ -18,3 +18,8 @@ const btn = document.getElementById("start");
 const grid = document.getElementById("grid")
 
 
+// Diamo l'evento click al pulsante
+btn.addEventListener("click", function () {
+
+
+})
