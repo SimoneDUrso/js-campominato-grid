@@ -17,10 +17,10 @@ const btn = document.getElementById("start");
 // Recupero l'elemento che conterrà la mia griglia
 const grid = document.getElementById("grid")
 
-
 // Diamo l'evento click al pulsante
 btn.addEventListener("click", function () {
 
+    grid.innerHTML = "";
     // Ciclo FOR per creare una griglia 10x10
     for (i = 0; i < 100; i++) {
 

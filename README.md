@@ -37,4 +37,8 @@ Le validazioni e i controlli possiamo farli anche in un secondo momento.
 7 - Aggiungiamo EventListener al quadrato appena creato;
 8 - Aggiungiamo una classe per colorare il singolo quadrato al click;
 9 - Iniettiamo all'interno dei quadrati il numero progressivo;
-10 - Appendiamo i nosti quadrati alla griglia.
+10 - Appendiamo i nosti quadrati alla griglia;
+11 - Creiamo la generazione di 16 numeri casuali che corrisponderanno alle bombe;
+12 - Creiamo un array vuoto[] "bombList";
+13 - Creiamo una variabile "score" per il punteggio settata a zero;
+14 - Creiamo una funzione per l'incremento della variabile score;
